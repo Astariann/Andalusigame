@@ -72,7 +72,7 @@ public class CharacterMotor : MonoBehaviour
         {
             animations.Play("idle");
         }
-        /**
+        
         //Pour sauter
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
@@ -82,6 +82,6 @@ public class CharacterMotor : MonoBehaviour
 
             // Saut
             gameObject.GetComponent<Rigidbody>().velocity = jumpSpeed;
-        }**/
+        }
     }
 }
